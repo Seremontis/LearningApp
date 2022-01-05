@@ -1,0 +1,12 @@
+D:\LearningApp\LearningApp\EFDataAccesLibrary\bin\Debug\net5.0\EFDataAccesLibrary.deps.json
+D:\LearningApp\LearningApp\EFDataAccesLibrary\bin\Debug\net5.0\EFDataAccesLibrary.dll
+D:\LearningApp\LearningApp\EFDataAccesLibrary\bin\Debug\net5.0\ref\EFDataAccesLibrary.dll
+D:\LearningApp\LearningApp\EFDataAccesLibrary\bin\Debug\net5.0\EFDataAccesLibrary.pdb
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.csproj.AssemblyReference.cache
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.AssemblyInfoInputs.cache
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.AssemblyInfo.cs
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.csproj.CoreCompileInputs.cache
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.dll
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\ref\EFDataAccesLibrary.dll
+D:\LearningApp\LearningApp\EFDataAccesLibrary\obj\Debug\net5.0\EFDataAccesLibrary.pdb
