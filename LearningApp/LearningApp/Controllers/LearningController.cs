@@ -21,6 +21,11 @@ namespace LearningApp.Controllers
             _db = db;
         }
 
+        public IActionResult ThreeMinutessQuestion()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             var vieModel = new List<QuizModel>();
@@ -55,7 +60,7 @@ namespace LearningApp.Controllers
                     }
                 }
             }
-            
+
             vieModel.Shuffle();
 
             var groupedViewModel = vieModel.GroupBy(x => x.Question).ToDictionary(x => x.Key, x => x.ToList());
@@ -71,7 +76,7 @@ namespace LearningApp.Controllers
             var randomDictionary = new Dictionary<string, List<QuizModel>>();
             List<string> keyList = new List<string>(quizModelNotSorted.Keys);
             Random rand = new Random();
-            
+
             for (int i = 0; i < 10; i++)
             {
                 string randomKey = keyList[rand.Next(keyList.Count)];
