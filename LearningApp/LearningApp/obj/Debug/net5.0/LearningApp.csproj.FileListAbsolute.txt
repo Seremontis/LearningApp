@@ -73,3 +73,8 @@ D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\EFDataAccesLibrary.dll
 D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\EFDataAccesLibrary.pdb
 D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\Humanizer.dll
 D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\EPPlus.dll
+D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\Extensions.dll
+D:\LearningApp\LearningApp\LearningApp\bin\Debug\net5.0\Extensions.pdb

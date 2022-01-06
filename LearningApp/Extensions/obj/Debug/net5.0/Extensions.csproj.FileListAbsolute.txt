@@ -1,0 +1,12 @@
+D:\LearningApp\LearningApp\Extensions\bin\Debug\net5.0\Extensions.deps.json
+D:\LearningApp\LearningApp\Extensions\bin\Debug\net5.0\Extensions.dll
+D:\LearningApp\LearningApp\Extensions\bin\Debug\net5.0\ref\Extensions.dll
+D:\LearningApp\LearningApp\Extensions\bin\Debug\net5.0\Extensions.pdb
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.csproj.AssemblyReference.cache
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.AssemblyInfoInputs.cache
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.AssemblyInfo.cs
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.csproj.CoreCompileInputs.cache
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.dll
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\ref\Extensions.dll
+D:\LearningApp\LearningApp\Extensions\obj\Debug\net5.0\Extensions.pdb
