@@ -32,6 +32,8 @@ namespace LearningApp.Controllers
             {
                 foreach (var myWorksheet in xlPackage.Workbook.Worksheets)
                 {
+                    if (myWorksheet.Name.Contains("MainQuestion"))
+                        continue;
                     var totalRows = myWorksheet.Dimension.End.Row;
                     var totalColumns = myWorksheet.Dimension.End.Column;
 
