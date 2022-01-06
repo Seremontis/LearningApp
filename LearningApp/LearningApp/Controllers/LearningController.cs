@@ -23,6 +23,18 @@ namespace LearningApp.Controllers
 
         public IActionResult ThreeMinutessQuestion()
         {
+            //protip
+            //do widoku zaimplementowac wazne cechy nauki
+            //w 3 minuty wypisz wszystko co wiesz na temat danego zagadnienia
+            //dobry patentenm by trwalej zapamiętywać informacje i łatwiej je potem wydobywać jest
+            //kluczowe zadawanie pytań i umiejętność odpowiadania na nie
+            //np opisz wzorzec Fabryka. Warto zadać sobie pytanie czemu ten wzorzec służy, jakiego jest on typu
+            //czy wykorzystywałem go już w pracy. jakie są jego plusy i minusy
+            //co wniesie do projektu
+            //kiedy warto go stosować
+            //warto wypisać kilka uniwersalnych pytań w tym widoku, a potem umiejętnie odpowiadać na poszczególne pytania
+            //docelowo można zapisać kilka haseł z danym pojęciem by po 3 minutach porównać nasze personalne notatki
+            //z tym co wiążę się z danym hasłem
             return View();
         }
 
