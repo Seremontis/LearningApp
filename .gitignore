@@ -1,2 +1,6 @@
-LearningApp/EFDataAccesLibrary/bin
+LearningApp/EFDataAccesLibrary/bin/
 LearningApp/test/test.txt
+LearningApp/test/
+LearningApp/Importer/obj/Debug/
+LearningApp/Importer/bin/Debug/
+LearningApp/obj/Debug/
