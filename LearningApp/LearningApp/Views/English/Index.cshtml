@@ -1,0 +1,21 @@
+﻿@using Newtonsoft.Json
+@model List<LearningApp.Models.WordsModel>
+<link href="@Url.Content("~/css/EnglishGameStyle.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/js/EnglishGameStyle.js")"></script>
+
+
+<div class="gameField">
+    @for (int i = 0; i < Model.Count() * 2; i++)
+    {
+        <div class="item" onclick="select(this)"></div>
+    }
+</div>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var model = JSON.parse('@Html.Raw(Json.Serialize(Model))');
+        test(model);
+    }, false);
+</script>
