@@ -6,7 +6,7 @@ namespace Importer
     {
         static void Main(string[] args)
         {
-            ExcelOperations excel = new ExcelOperations();
+            WordsDataImporter excel = new WordsDataImporter();
             excel.ImportData();
             Console.WriteLine("Hello World!");
         }

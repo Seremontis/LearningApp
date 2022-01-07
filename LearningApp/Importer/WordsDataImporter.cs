@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Importer
 {
-    public class ExcelOperations
+    public class WordsDataImporter
     {
         private const string _excelLocalization = @"C:\temp\test.xlsx";
         private Dictionary<string, string> _sourceWords = new Dictionary<string, string>()
@@ -67,14 +67,15 @@ namespace Importer
                         int.TryParse(x.InnerText, out res);
                         return res;
                     }).Max();
-                AddRecords(node,item.Value);
+                AddRecords(node, item.Value);
                 for (int i = 2; i <= countPage; i++)
                     AddRecords(LoadHtml(item.Key + $"/page/{i}"), item.Value);
             }
         }
+
         private HtmlNode LoadHtml(string url) => _web.Load(url).DocumentNode;
 
-        private void AddRecords(HtmlNode node,string type)
+        private void AddRecords(HtmlNode node, string type)
         {
             foreach (HtmlNode item in node.SelectNodes(@"//div[@class='dictionary']/div[@class='ditem']"))
             {
@@ -83,18 +84,21 @@ namespace Importer
                     EnglishMeaning = item.SelectSingleNode(@".//p[@class='word']")
                                     .ChildNodes.Where(x => x.NodeType == HtmlNodeType.Text).FirstOrDefault()?.InnerText,
                     PolishMeaning = item.SelectSingleNode(@".//p[@class='tr']")?.InnerText,
-                    Type = type.Length>2?type:string.Empty,
+                    Type = type.Length > 2 ? type : string.Empty,
                     Level = item.SelectSingleNode(@".//p[@class='word']/span")?.GetClasses().FirstOrDefault(),
                 };
 
-                WordsModel inList = data.FirstOrDefault(x => x.EnglishMeaning == model.EnglishMeaning);
-                if (inList != null)
+                if (!string.IsNullOrEmpty(model.PolishMeaning))
                 {
-                    inList.PolishMeaning += ", " + model.PolishMeaning;
-                    inList.Type += " " + model.Type;
+                    WordsModel inList = data.FirstOrDefault(x => x.EnglishMeaning == model.EnglishMeaning);
+                    if (inList != null)
+                    {
+                        inList.PolishMeaning += ", " + model.PolishMeaning;
+                        inList.Type += " " + model.Type;
+                    }
+                    else
+                        data.Add(model);
                 }
-                else
-                    data.Add(model);
 
             }
         }
